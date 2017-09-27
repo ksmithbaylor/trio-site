@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
-  font-family: sans-serif;
+  width: 960px;
+  margin: 1em auto;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header #name {
+  font-family: 'Rouge Script';
+  font-size: 96px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 3em;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 3em;
+  font-family: 'Raleway';
+  font-size: 11px;
+}
+
+.content {
+  font-family: 'Raleway';
+  font-size: 16px;
+}
+
+.picture {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  background-color: #ffdbf4;
 }
