@@ -11,16 +11,9 @@ header, footer {
   text-align: center;
 }
 
-header #name {
-  font-family: 'Rouge Script';
-  font-size: 96px;
-  user-select: none;
-  cursor: default;
-  z-index: 2;
-}
-
 header svg {
   margin: 0 auto;
+  margin-left: -4em;
 }
 
 nav {
@@ -51,9 +44,14 @@ nav a {
 }
 
 footer {
+  clear: both;
   margin-top: 3em;
   font-family: 'Raleway';
   font-size: 11px;
+}
+
+footer img {
+  height: 20px;
 }
 
 .content {
@@ -68,4 +66,32 @@ footer {
   margin-bottom: 2em;
   margin-right: 2em;
   background-color: #f78cb0;
+}
+
+.bio-pic {
+  width: 45%;
+  height: 500px;
+  margin: 2em;
+  margin-top: 0;
+  margin-bottom: 4em;
+  background-color: #f78cb0;
+  clear: both;
+}
+.bio-pic + p {
+  width: calc(55% - 6em);
+  margin-top: 0;
+}
+.bio-pic.left {
+  float: left;
+  margin-left: 0;
+}
+.bio-pic.left + p {
+  float: right;
+}
+.bio-pic.right {
+  float: right;
+  margin-right: 0;
+}
+.bio-pic.right + p {
+  float: left;
 }
