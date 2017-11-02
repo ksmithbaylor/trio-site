@@ -11,9 +11,9 @@ header, footer {
   text-align: center;
 }
 
-header svg {
-  margin: 0 auto;
-  margin-left: -4em;
+#logo {
+  margin: 2em auto;
+  width: 400px;
 }
 
 nav {
