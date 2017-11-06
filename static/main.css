@@ -11,6 +11,10 @@ header, footer {
   text-align: center;
 }
 
+header {
+  margin-top: 37vh;
+}
+
 #logo {
   margin: 2em auto;
   width: 400px;
@@ -59,13 +63,31 @@ footer img {
   font-size: 16px;
 }
 
-.picture {
-  float: left;
-  width: 500px;
-  height: 300px;
-  margin-bottom: 2em;
-  margin-right: 2em;
-  background-color: #f78cb0;
+.splash-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 60vh;
+  z-index: -1;
+}
+
+.splash {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.splash-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(0deg, #000, rgba(256,256,256,0) 50%);
 }
 
 .bio-pic {

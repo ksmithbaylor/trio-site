@@ -94,7 +94,7 @@ const tipPoints = [
   [137.38, 75.2],
 ]
 
-const accentColor = '#f78cb0';
+const accentColor = 'white';
 
 // Close up on treble: viewBox="100 75 70 20" width="600" height="700"
 const svgHTML = `
@@ -113,6 +113,7 @@ const svgHTML = `
       y="110"
       font-family="Rouge Script"
       font-size="96"
+      fill="white"
     >
       nterlude
     </text>
